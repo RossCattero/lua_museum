@@ -1,0 +1,1 @@
+[{"color":{"r":255.0,"b":0.0,"a":255.0,"g":0.0},"thirdperson":true,"year":2020.0,"month":8.0,"day":12.0,"chatMax":494.0,"music":"","oocDelay":100.0,"loocDelay":5.0}]

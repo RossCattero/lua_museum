@@ -1,0 +1,1 @@
+~"enable_joggingv":{~"defaultv":b0"valuev":b1}"max_chat_lengthv":{~"defaultv":n256;"valuev":n1024}"menuitem_hide_communityv":{~"defaultv":b0"valuev":b1}

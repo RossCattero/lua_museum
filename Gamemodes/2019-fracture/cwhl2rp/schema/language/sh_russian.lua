@@ -1,0 +1,374 @@
+﻿--[[ 
+    © CloudSixteen.com do not share, re-distribute or modify 
+    without permission of its author (kurozael@gmail.com). 
+  
+    Clockwork was created by Conna Wiles (also known as kurozael.) 
+    http://cloudsixteen.com/license/clockwork.html 
+--]] 
+  
+CW_RUSSIAN = Clockwork.lang:GetTable("Русский"); 
+  
+CW_RUSSIAN["Acrobatics"] = "Акробатика"; 
+CW_RUSSIAN["Dexterity"] = "Ловкость рук"; 
+CW_RUSSIAN["Endurance"] = "Стойкость"; 
+CW_RUSSIAN["Medical"] = "Познания в медицине"; 
+CW_RUSSIAN["Strength"] = "Сила"; 
+CW_RUSSIAN["Agility"] = "Скорость"; 
+  
+CW_RUSSIAN["Objectives"] = "Цели"; 
+  
+CW_RUSSIAN["Breach"] = "Взрывчатка"; 
+CW_RUSSIAN["BreachTargetID"] = "Нажмите \'E\' чтобы взорвать"; 
+  
+CW_RUSSIAN["Radio"] = "Радиоприемник"; 
+CW_RUSSIAN["RadioTargetID"] = "На данном радиоприемнике не установлена частота."; 
+  
+CW_RUSSIAN["InfoCitizenID"] = "Персональный ID: #1"; 
+  
+CW_RUSSIAN["CannotDropWhileCarrying"] = "Вы не можете выбросить данный предмет, пока в нем находятся вещи."; 
+CW_RUSSIAN["PermaKillModeDisabled"] = "Режим убийства навсегда выключен."; 
+CW_RUSSIAN["PermaKillModeTurnedOff"] = "#1 выключил режим убийства навсегда."; 
+CW_RUSSIAN["PermaKillModeEnabled"] = "#1 has turned on perma-kill mode for #2 minute(s), try not to be killed."; 
+CW_RUSSIAN["InvalidAmountOfMinutes"] = "Вы ввели невалидное количество минут."; 
+CW_RUSSIAN["RemovedFromServerWhitelist"] = "#1 удалил #2 из вайтлиста '#3'!"; 
+CW_RUSSIAN["AddedToServerWhitelist"] = "#1 добавил #2 в вайтлист '#3'!"; 
+CW_RUSSIAN["AlreadyOnServerWhitelist"] = "#1 уже находится в вайтлисте '#2'!"; 
+CW_RUSSIAN["NotOnServerWhitelist"] = "#1 не находится в вайтлисте '#2'!"; 
+CW_RUSSIAN["PlayerTookCustomClass"] = "#1 has revoked #2's custom class."; 
+CW_RUSSIAN["PlayerSetCustomClass"] = "#1 установил #2's кастомный класс '#3'."; 
+CW_RUSSIAN["PlayerPermaKilledOther"] = "#1 удалил персонажа '#2'!"; 
+CW_RUSSIAN["PlayerAlreadyPermaKilled"] = "Этот персонаж и так мёртв."; 
+CW_RUSSIAN["CharacterAlreadyTied"] = "Этот персонаж уже связан!"; 
+CW_RUSSIAN["CharacterTooFarAway"] = "Этот персонаж слишком далеко!"; 
+CW_RUSSIAN["CannotTieThoseFacingYou"] = "Вы не можете связать персонажа, который смотрит на Вас!"; 
+CW_RUSSIAN["AlreadyTyingCharacter"] = "Вы уже связываете данного персонажа!"; 
+CW_RUSSIAN["CannotDoThisWhenScanner"] = "Вы не можете выбрасывать вещи, так как играете за Сканнер."; 
+CW_RUSSIAN["CannotDoThisWhenTied"] = "Вы не можете сделать это, пока связаны!"; 
+CW_RUSSIAN["NotRankedHighEnoughForClass"] = "Ваш ранг недостаточно высок для этого класса!"; 
+CW_RUSSIAN["RankedTooHighForClass"] = "Ваш ранг слишком высок для этого класса!"; 
+  
+CW_RUSSIAN["YouSetRadioFrequencyTo"] = "Вы установили частоту данного радиоприемника на #1."; 
+CW_RUSSIAN["RadioArgumentsMustBeBetween"] = "Частота должна варьироваться от 101.1 до 199.9!"; 
+CW_RUSSIAN["RadioArgumentsMustBeLike"] = "Частота должна выглядеть таким образом: XXX.X!"; 
+CW_RUSSIAN["CannotUseAnotherSecondary"] = "Вы не можете использовать еще одно вторичное оружие!"; 
+CW_RUSSIAN["CannotUseAnotherPrimary"] = "Вы не можете использовать еще одно первичное оружие!"; 
+CW_RUSSIAN["CannotUseAnotherMelee"] = "Вы не можете использовать еще одно рукопашное оружие!"; 
+CW_RUSSIAN["NeedToSetFrequencyFirst"] = "Для начала установите частоту!"; 
+CW_RUSSIAN["YouCannotDoThatRightNow"] = "Вы не можете сделать это прямо сейчас!"; 
+CW_RUSSIAN["YouDoNotOwnARadio"] = "У Вас нет рации!"; 
+CW_RUSSIAN["YouDoNotOwnAZipTie"] = "У Вас нет стяжек!"; 
+CW_RUSSIAN["YouAreNotAdministrator"] = "Вы не Администратор!"; 
+CW_RUSSIAN["CannotSearchMovingCharacter"] = "Вы не можете обыскать двигающегося персонажа!"; 
+CW_RUSSIAN["CharacterIsNotTied"] = "Свяжите этого персонажа, перед тем как обыскивать его!"; 
+CW_RUSSIAN["YouCannotOpenRation"] = "Вы не можете открыть данный рацион!"; 
+CW_RUSSIAN["NotInCWU"] = "Вы не сотрудник Бункера!"; 
+  
+CW_RUSSIAN["YouSetYourRadioFrequencyTo"] = "Вы установили частоту на #1."; 
+CW_RUSSIAN["CannotHaveCombineLock"] = "Данный предмет не может использовать замок!"; 
+CW_RUSSIAN["AlreadyHasCombineLock"] = "Данный предмет уже имеет замок!"; 
+CW_RUSSIAN["YouDoNotOwnHealthVial"] = "У Вас нет геля!"; 
+CW_RUSSIAN["YouDoNotOwnHealthKit"] = "У Вас нет аптечки!"; 
+CW_RUSSIAN["YouDoNotOwnBandage"] = "У Вас нет бинта!"; 
+CW_RUSSIAN["NotValidMedicalItem"] = "Этого медицинского предмета не существует!"; 
+CW_RUSSIAN["CannotSendRequestUntil"] = "Вы не можете отправлять запросы еще #2 секунд!"; 
+CW_RUSSIAN["YouDoNotOwnRequestDevice"] = "У Вас нет устройства запроса!"; 
+CW_RUSSIAN["YouAreCurrentlyTying"] = "В настоящее время Вы связываете персонажа! Пожалуйста, подождите."; 
+CW_RUSSIAN["YouAreNotCombine"] = "Вы не находитесь в фракции Альянса!"; 
+CW_RUSSIAN["CannotViewEditOwnData"] = "Вы не можете просматривать или изменять вашу информацию!"; 
+CW_RUSSIAN["YouAddedVendingMachine"] = "Вы добавили торговый автомат."; 
+CW_RUSSIAN["YouAddedRationDispenser"] = "Вы доабвили раздатчик рационов."; 
+CW_RUSSIAN["CannotBeBreached"] = "Данный предмет не может быть взорван!"; 
+CW_RUSSIAN["AlreadyHasBreach"] = "На данную дверь уже установлена взрывчатка."; 
+CW_RUSSIAN["YouAreFollowing"] = "Теперь вы следуете за #1."; 
+CW_RUSSIAN["NoCharactersNearYou"] = "Рядом с Вами нет персонажей!"; 
+CW_RUSSIAN["YouAreNotAScanner"] = "Ошибка."; 
+  
+CW_RUSSIAN["StatusBeingTiedUp"] = "Связывается."; 
+CW_RUSSIAN["StatusBeenTiedUp"] = "Связан."; 
+CW_RUSSIAN["StatusBeingUntied"] = "Развязывают."; 
+CW_RUSSIAN["StatusUnconscious"] = "Без сознания."; 
+CW_RUSSIAN["StatusCriticalCondition"] = "В критическом состоянии."; 
+CW_RUSSIAN["PressUseToUntie"] = "Нажмите :+use:, чтобы развязать."; 
+  
+CW_RUSSIAN["OptionPermaKill"] = "Убить"; 
+CW_RUSSIAN["OptionCustomClass"] = "Уникальный класс"; 
+CW_RUSSIAN["OptionCustomClassSet"] = "Установить"; 
+CW_RUSSIAN["OptionCustomClassTake"] = "Забрать"; 
+CW_RUSSIAN["OptionCustomClassHelp"] = "Какой уникальный класс Вы хотите установить?"; 
+  
+CW_RUSSIAN["OptionServerWhitelist"] = "Вайтлист сервера."; 
+CW_RUSSIAN["OptionServerWhitelistAdd"] = "Добавить"; 
+CW_RUSSIAN["OptionServerWhitelistAddHelp"] = "В какой вайтлист Вы хотите его поместить?"; 
+CW_RUSSIAN["OptionServerWhitelistRemove"] = "Удалить"; 
+CW_RUSSIAN["OptionServerWhitelistRemoveHelp"] = "Из какого вайтлиста Вы хотите его вынести?"; 
+  
+CW_RUSSIAN["RebuildCitizenManifest"] = "Передача геопозиции Юнита..."; 
+CW_RUSSIAN["UpdateExternalAttributes"] = "Обновление состояния атрибута #1..."; 
+CW_RUSSIAN["DownloadLostBiosignal"] = "Скачивание потерянного биосигнала..."; 
+CW_RUSSIAN["DownloadTraumaPacket"] = "Скачивание пакета травм..."; 
+CW_RUSSIAN["ProtectionTeamBodilyHarm"] = "ВНИМАНИЕ! Юнит получил некоторый урон в #1..."; 
+CW_RUSSIAN["DownloadRecentObbjectives"] = "Скачивание последних целей..."; 
+CW_RUSSIAN["DownloadRequestPacket"] = "Скачивание пакета запросов..."; 
+CW_RUSSIAN["ErrorShuttingDown"] = "ОШИБКА! Завершение работы..."; 
+CW_RUSSIAN["PhysicalTraumaDetected"] = "ВНИМАНИЕ! Телесное повреждение обнаружено..."; 
+CW_RUSSIAN["PhysicalSystemsRestored"] = "Физические параметры восстановлены..."; 
+CW_RUSSIAN["PhysicalSystemsRegenerate"] = "Восстановление физических параметров..."; 
+CW_RUSSIAN["ExternalProtectionExhausted"] = "ВНИМАНИЕ! Защита получила исчерпывающий урон..."; 
+CW_RUSSIAN["ExternalProtectionDamaged"] = "ВНИМАНИЕ! Защита получила урон..."; 
+CW_RUSSIAN["ExternalProtectionRestored"] = "Защита восстановлена..."; 
+CW_RUSSIAN["ExternalProtectionRegenerate"] = "Идет восстановление защиты..."; 
+CW_RUSSIAN["BiosignalLost"] = "ВНИМАНИЕ! Биологический сигнал юнита потерян в #1..."; 
+CW_RUSSIAN["DownloadingLostRadioInfo"] = "Скачивание потерянной информации..."; 
+CW_RUSSIAN["RadioContactLostForUnit"] = "ВНИМАНИЕ! Сигнал Юнита потерян в #1..."; 
+  
+CW_RUSSIAN["QuizAnswerCollectingItems"] = "Поиск лута."; 
+CW_RUSSIAN["QuizAnswerDevelopingChar"] = "Развитие истории своего персонажа."; 
+CW_RUSSIAN["QuizAnswerRealLife"] = "Реальная жизнь."; 
+CW_RUSSIAN["QuizAnswerHalfLife2"] = "Half-Life."; 
+CW_RUSSIAN["QuizAnswerGoodGrammar"] = "Да, я могу."; 
+CW_RUSSIAN["QuizAnswerBadGrammar"] = "Ок"; 
+CW_RUSSIAN["QuizAnswerYes"] = "Да."; 
+CW_RUSSIAN["QuizAnswerNo"] = "Нет."; 
+CW_RUSSIAN["QuizOption1"] = "Вы понимаете, что тип игры Role Play является спокойым и медленным?"; 
+CW_RUSSIAN["QuizOption2"] = "Можете ли Вы писать правильно, соблюдая пунктуацию и используя заглавные буквы?"; 
+CW_RUSSIAN["QuizOption3"] = "Вы понимаете, что для игры Вам не потребуется оружие?"; 
+CW_RUSSIAN["QuizOption4"] = "Вы понимаете, что для игры Вам не потребуются вещи или предметы?"; 
+CW_RUSSIAN["QuizOption5"] = "Вы понимаете, в чём заключается суть серьёзной Role Play отыгровки?"; 
+CW_RUSSIAN["QuizOption6"] = "В какой Вселенной происходят действия на этом сервере?"; 
+  
+CW_RUSSIAN["ChatPlayerBroadcast"] = ":color1:#1 транслирует \"#2\""; 
+CW_RUSSIAN["ChatPlayerDispatch"] = ":color1:Диспетчер транслирует \"#1\""; 
+CW_RUSSIAN["ChatPlayerRequest"] = ":color1:#1 запрашивает \"#2\""; 
+  
+CW_RUSSIAN["YouAlreadyHavePermit"] = "У Вас уже есть это разрешение"; 
+CW_RUSSIAN["NotValidPermit"] = "Не является существующим разрешением!"; 
+CW_RUSSIAN["PermitsNotEnabled"] = "Система разрешений выключена!"; 
+CW_RUSSIAN["YouAreNotACitizen"] = "Вы не гражданин!"; 
+  
+CW_RUSSIAN["GiveCashVendingMachine"] = "торговый автомат"; 
+CW_RUSSIAN["CashPermitBuyGeneralGoods"] = "покупка разрешения на обычные товары"; 
+CW_RUSSIAN["CashPermitBuy"] = "покупка #1 разрешения"; 
+CW_RUSSIAN["CashBusinessPermit"] = "покупка разрешения на бизнес"; 
+CW_RUSSIAN["CashDestroyGenerator"] = "уничтожение #1"; 
+CW_RUSSIAN["CashRationPacket"] = "рацион"; 
+  
+CW_RUSSIAN["HintLife"] = "Life"; 
+CW_RUSSIAN["HintLifeDesc"] = "Ваш персонаж - человек, не стоит совершать опасные для жизни действия."; 
+CW_RUSSIAN["HintSleep"] = "Sleep"; 
+CW_RUSSIAN["HintSleepDesc"] = "Не забывайте спать."; 
+CW_RUSSIAN["HintEating"] = "Eating"; 
+CW_RUSSIAN["HintEatingDesc"] = "Если Ваш персонаж сыт - это не значит, что он не хочет есть."; 
+CW_RUSSIAN["HintFriends"] = "Friends"; 
+CW_RUSSIAN["HintFriendsDesc"] = "Будьте осторожны и передвигайтесь тихо."; 
+  
+CW_RUSSIAN["HintCurfew"] = "Curfew"; 
+CW_RUSSIAN["HintCurfewDesc"] = "Стало скучно? Попытайтесь реализовать какую-нибудь интересную идею."; 
+CW_RUSSIAN["HintPrison"] = "Prison"; 
+CW_RUSSIAN["HintPrisonDesc"] = "Не совершайте крупных действий, если у Вас нет времени для их отыгровки."; 
+CW_RUSSIAN["HintRebels"] = "Rebels"; 
+CW_RUSSIAN["HintRebelsDesc"] = "Держите свои глаза открытыми. Вокруг существует огромное количество опасностей."; 
+CW_RUSSIAN["HintTalking"] = "Talking"; 
+CW_RUSSIAN["HintTalkingDesc"] = "Разговаривайте шепотом, когда находитесь в закрытом секторе."; 
+CW_RUSSIAN["HintRations"] = "Rations"; 
+CW_RUSSIAN["HintRationsDesc"] = "Найдите ближайший раздатчик рационов, чтобы получить пищу."; 
+CW_RUSSIAN["HintCombine"] = "Combine"; 
+CW_RUSSIAN["HintCombineDesc"] = "Старайтесь не создавать ситуаций в которых Ваш персонаж может пострадать."; 
+CW_RUSSIAN["HintJumping"] = "Jumping"; 
+CW_RUSSIAN["HintJumpingDesc"] = "Ваш персонаж имеет свйоство мёрзнуть."; 
+CW_RUSSIAN["HintPunching"] = "Punching"; 
+CW_RUSSIAN["HintPunchingDesc"] = "Хотите устроить погром? Не стоит."; 
+CW_RUSSIAN["HintCompliance"] = "Compliance"; 
+CW_RUSSIAN["HintComplianceDesc"] = "Вы можете сотрудничать с Альянсом."; 
+CW_RUSSIAN["HintCombineRaids"] = "Combine Raids"; 
+CW_RUSSIAN["HintCombineRaidsDesc"] = "Оглядывайтесь чаще."; 
+CW_RUSSIAN["HintRequestDevice"] = "Request Device"; 
+CW_RUSSIAN["HintRequestDeviceDesc"] = "Выход на группу Альянса в одиночку может закончиться для Вас трагично."; 
+CW_RUSSIAN["HintCivilProtection"] = "Civil Protection"; 
+CW_RUSSIAN["HintCivilProtectionDesc"] = "Не попадайтесь на глаза Гражданской Обороне, и возможно останетесь целы."; 
+  
+CW_RUSSIAN["Civil Protection"] = "Земная федерация"; 
+CW_RUSSIAN["Overwatch Transhuman Arm"] = "Сверхчеловеческий отдел"; 
+  
+CW_RUSSIAN["HintAdmins"] = "Admins"; 
+CW_RUSSIAN["HintAdminsDesc"] = "Администраторы здесь, чтобы помочь Вам. Пожалуйста, уважайте их."; 
+CW_RUSSIAN["HintAction"] = "Action"; 
+CW_RUSSIAN["HintActionDesc"] = "Перестаньте искать приключения, и они найдут Вас сами."; 
+CW_RUSSIAN["HintGrammar"] = "Grammar"; 
+CW_RUSSIAN["HintGrammarDesc"] = "Не используйте сленг и смайлики в чате."; 
+CW_RUSSIAN["HintRunning"] = "Running"; 
+CW_RUSSIAN["HintRunningDesc"] = "Ваш персонаж может замёрзнуть и простудиться."; 
+CW_RUSSIAN["HintHealing"] = "Healing"; 
+CW_RUSSIAN["HintHealingDesc"] = "Вы можете лечить других персонажей используя кнопку \"Give\" на предмете в инвентаре."; 
+CW_RUSSIAN["HintF3Hotkey"] = "F3 Hotkey"; 
+CW_RUSSIAN["HintF3HotkeyDesc"] = "Нажмите F3 когда смотрите на персонажа, чтобы связать его."; 
+CW_RUSSIAN["HintF4Hotkey"] = "F4 Hotkey"; 
+CW_RUSSIAN["HintF4HotkeyDesc"] = "Нажмите F4 когда смотрите на связанного персонажа, чтобы обыскать его."; 
+CW_RUSSIAN["HintAttributes"] = "Attributes"; 
+CW_RUSSIAN["HintAttributesDesc"] = "Багоюзерство приводит к пермаментному бану."; 
+CW_RUSSIAN["HintFirefights"] = "Firefights"; 
+CW_RUSSIAN["HintFirefightsDesc"] = "Играйте в своё удовольствие. Не пытайтесь обманывать Администрацию или систему сервера."; 
+CW_RUSSIAN["HintMetagaming"] = "Metagaming"; 
+CW_RUSSIAN["HintMetagamingDesc"] = "Метагейминг - это та ситуация, когда Вы используете информацию из реального мира (OOC) в игре (IC) или наоборот."; 
+CW_RUSSIAN["HintPassiveRP"] = "Passive RP"; 
+CW_RUSSIAN["HintPassiveRPDesc"] = "Пассивный ролеплей всегда поможет скоротать время."; 
+CW_RUSSIAN["HintDevelopment"] = "Development"; 
+CW_RUSSIAN["HintDevelopmentDesc"] = "Развивайте своего персонажа."; 
+CW_RUSSIAN["HintPowergaming"] = "Powergaming"; 
+CW_RUSSIAN["HintPowergamingDesc"] = "Не надо быть сверхгероем или сверхчеловеком, пытайтесь быть реальной личностью."; 
+  
+CW_RUSSIAN["ServerWhitelistIdentity"] = "Идентификация Вайтлиста Сервера"; 
+CW_RUSSIAN["ServerWhitelistIdentityDesc"] = "Разрешение для входа на сервер только определенным игрокам.\nОставтье пустым, чтобы сервер был открыт."; 
+CW_RUSSIAN["CombineLockOverrides"] = "Combine Lock Overrides"; 
+CW_RUSSIAN["CombineLockOverridesDesc"] = "Whether or not Combine locks override the door lock."; 
+CW_RUSSIAN["SmallIntroText"] = "Small Intro Text"; 
+CW_RUSSIAN["SmallIntroTextDesc"] = "The small text displayed for the introduction."; 
+CW_RUSSIAN["BigIntroText"] = "Big Intro Text"; 
+CW_RUSSIAN["BigIntroTextDesc"] = "The big text displayed for the introduction."; 
+CW_RUSSIAN["KnockoutTime"] = "Время без сознания"; 
+CW_RUSSIAN["KnockoutTimeDesc"] = "Время, которое человек будет находиться без сознания (секунды)."; 
+CW_RUSSIAN["BusinessCost"] = "Цена создания бизнеса"; 
+CW_RUSSIAN["BusinessCostDesc"] = "Введите цену."; 
+CW_RUSSIAN["CWUPropsEnabled"] = "Возможность строительства работнками ГСР."; 
+CW_RUSSIAN["CWUPropsEnabledDesc"] = "Могут ли строить работники ГСР?"; 
+CW_RUSSIAN["PermitsEnabled"] = "Включены ли разрешения"; 
+CW_RUSSIAN["PermitsEnabledDesc"] = "По умолчанию отключены."; 
+  
+CW_RUSSIAN["RequestFrequencyTitle"] = "Частота"; 
+CW_RUSSIAN["RequestFrequencyHelp"] = "Какую частоту Вы хотите установить?"; 
+CW_RUSSIAN["RequestObjectDescTitle"] = "Описание объекта"; 
+CW_RUSSIAN["RequestObjectDescHelp"] = "Какое физическое описание у данного объекта?"; 
+  
+CW_RUSSIAN["Item357MagnumBullets"] = "Патроны .357 калибра"; 
+CW_RUSSIAN["Item357MagnumBulletsDesc"] = "Маленькая коробка с металлическим содержимым внутри. На лицевой стороне изображен револьвер."; 
+CW_RUSSIAN["ItemPulseRifleEnergy"] = "Картридж для AR2"; 
+CW_RUSSIAN["ItemPulseRifleEnergyDesc"] = "Картридж с голубым свечением, исходящим из него."; 
+CW_RUSSIAN["ItemPulseRifleOrb"] = "Пульсирующий заряд для AR2"; 
+CW_RUSSIAN["ItemPulseRifleOrbDesc"] = "Странная вещь, из нее исходит желтое свечение."; 
+CW_RUSSIAN["ItemShotgunShells"] = "Патроны для дробовика"; 
+CW_RUSSIAN["ItemShotgunShellsDesc"] = "Красная коробка наполненная патронами."; 
+CW_RUSSIAN["Item9mmPistolBullets"] = "Патроны 9мм"; 
+CW_RUSSIAN["Item9mmPistolBulletsDesc"] = "Зеленый контейнер с большим количеством патронов. На лицевой стороне можно увидеть надпись \"9mm\"."; 
+CW_RUSSIAN["ItemRPGMissile"] = "Ракета для РПГ"; 
+CW_RUSSIAN["ItemRPGMissileDesc"] = "Окрашенная в оранжево-белый цвет ракета."; 
+CW_RUSSIAN["ItemSMGBullets"] = "Патроны для MP7"; 
+CW_RUSSIAN["ItemSMGBulletsDesc"] = "Тяжелый контейнер синего цвета, заполненный большим количеством патронов."; 
+CW_RUSSIAN["ItemMP7Grenade"] = "MP7 Граната"; 
+CW_RUSSIAN["ItemMP7GrenadeDesc"] = "Большой патрон, окрашенный в темно-зеленый цвет."; 
+CW_RUSSIAN["ItemCrossbowBolts"] = "Стрелы"; 
+CW_RUSSIAN["ItemCrossbowBoltsDesc"] = "Набор железных стрел. Предположительно их нужно использовать с арбалетом."; 
+CW_RUSSIAN["ItemAntidepressants"] = "Антидепрессанты"; 
+CW_RUSSIAN["ItemAntidepressantsDesc"] = "Жестяная банка с небольшим количеством таблеток внутри."; 
+CW_RUSSIAN["ItemBackpack"] = "Рюкзак"; 
+CW_RUSSIAN["ItemBackpackDesc"] = "Потрепанный рюкзак. Сомневаюсь, что он сможет вместить большое количество вещей."; 
+CW_RUSSIAN["ItemBandage"] = "Бинт"; 
+CW_RUSSIAN["ItemBandageDesc"] = "Грязный бинт темно-белого цвета."; 
+CW_RUSSIAN["ItemBeer"] = "Пиво"; 
+CW_RUSSIAN["ItemBeerDesc"] = "Темно-зеленая бутылка с жидкостью, которая имеет странный запах."; 
+CW_RUSSIAN["ItemBleach"] = "Отбеливатель"; 
+CW_RUSSIAN["ItemBleachDesc"] = "Бутылка со старым отбеливателем."; 
+CW_RUSSIAN["ItemBoxedBackpack"] = "Упакованный рюкзак."; 
+CW_RUSSIAN["ItemBoxedBackpackDesc"] = "Коричневая коробка с тканевым содержимым внутри."; 
+CW_RUSSIAN["ItemBoxedBag"] = "Упакованная сумка"; 
+CW_RUSSIAN["ItemBoxedBagDesc"] = "Коричневая коробка с тканевым содержимым внутри."; 
+CW_RUSSIAN["ItemBreach"] = "Взрывчатка"; 
+CW_RUSSIAN["ItemBreachDesc"] = "Небольшое устройство, внешне похожее на замок."; 
+CW_RUSSIAN["ItemBreensWater"] = "Вода"; 
+CW_RUSSIAN["ItemBreensWaterDesc"] = "Аллюминевая банка с жидкостью внутри."; 
+CW_RUSSIAN["ItemChineseTakeout"] = "Китайская лапша"; 
+CW_RUSSIAN["ItemChineseTakeoutDesc"] = "До верху наполненная холодной лапшой коробка."; 
+CW_RUSSIAN["ItemCitizenSupplements"] = "Пищевые добавки"; 
+CW_RUSSIAN["ItemCitizenSupplementsDesc"] = "Банка с жидким веществом внутри. Хлюпает если встрясти и имеет отвратительный запах."; 
+CW_RUSSIAN["ItemCombineLock"] = "Замок"; 
+CW_RUSSIAN["ItemCombineLockDesc"] = "Устройство позволяющее закрывать двери."; 
+CW_RUSSIAN["ItemFlash"] = "Световая граната"; 
+CW_RUSSIAN["ItemFlashDesc"] = "Грязный металлический предмет внешне похожий на гранату. На лицевой стороне можно увидеть надпись \"FLASH GRENADE\"."; 
+CW_RUSSIAN["ItemSmoke"] = "Дымовая граната"; 
+CW_RUSSIAN["ItemSmokeDesc"] = "Грязный металлический предмет внешне похожий на гранату. На лицевой стороне можно увидеть надпись \"SMOKE GRENADE\"."; 
+CW_RUSSIAN["ItemFlash"] = "Световая граната"; 
+CW_RUSSIAN["ItemFlashDesc"] = "Грязный металлический предмет внешне похожий на гранату. На лицевой стороне можно увидеть надпись \"FLASH GRENADE\"."; 
+CW_RUSSIAN["ItemHandheldRadio"] = "Рация"; 
+CW_RUSSIAN["ItemHandheldRadioDesc"] = "Темно-серый портативный радиоприемник с кнопками для переключения частоты."; 
+CW_RUSSIAN["ItemHealthKit"] = "Аптечка"; 
+CW_RUSSIAN["ItemHealthKitDesc"] = "Белая металлическая коробка с "; 
+CW_RUSSIAN["ItemHealthVial"] = "Биологический Гель"; 
+CW_RUSSIAN["ItemHealthVialDesc"] = "Странный пузырёк, наполненный светло-зеленой жидкостью."; 
+CW_RUSSIAN["ItemLargeSoda"] = "Газированная вода"; 
+CW_RUSSIAN["ItemLargeSodaDesc"] = "Большая пластиковая бутылка, наполненная шипучей жидкостью."; 
+CW_RUSSIAN["ItemMedicUniform"] = "Униформа медика"; 
+CW_RUSSIAN["ItemMedicUniformDesc"] = "Униформа с медицинской эмблемой на рукаве."; 
+CW_RUSSIAN["ItemMelon"] = "Арбуз"; 
+CW_RUSSIAN["ItemMelonDesc"] = "Обычный арбуз. Имеет приятный запах."; 
+CW_RUSSIAN["ItemMetropoliceSupplements"] = "Пищевые добавки ГО"; 
+CW_RUSSIAN["ItemMetropoliceSupplementsDesc"] = "Теплая банка с ароматной кашей внутри."; 
+CW_RUSSIAN["ItemMilkCarton"] = "Картонная коробка молока"; 
+CW_RUSSIAN["ItemMilkCartonDesc"] = "Картонная коробка, наполненная белой жидкостью."; 
+CW_RUSSIAN["ItemMilkJugs"] = "Бутылка с молоком"; 
+CW_RUSSIAN["ItemMilkJugsDesc"] = "Бутылка, наполненная белой жидкостью."; 
+CW_RUSSIAN["ItemParacetamol"] = "Парацетомол"; 
+CW_RUSSIAN["ItemParacetamolDesc"] = "Жестяная банка с небольшим количеством таблеток внутри."; 
+CW_RUSSIAN["ItemRation"] = "Рацион"; 
+CW_RUSSIAN["ItemRationDesc"] = "Дневной рацион"; 
+CW_RUSSIAN["ItemRequestDevice"] = "Устройство запроса"; 
+CW_RUSSIAN["ItemRequestDeviceDesc"] = "Устройство, внешне похожее на рацию с маленькой кнопкой по середине."; 
+CW_RUSSIAN["ItemResistanceUniform"] = "Униформа сопротивления"; 
+CW_RUSSIAN["ItemResistanceUniformDesc"] = "Униформа сопротивления с эмблемой лямбды."; 
+CW_RUSSIAN["ItemSmallBag"] = "Сумка"; 
+CW_RUSSIAN["ItemSmallBagDesc"] = "Старая сумка."; 
+CW_RUSSIAN["ItemSmoke"] = "Дымовая граната"; 
+CW_RUSSIAN["ItemSmokeDesc"] = "Грязный металлический предмет внешне похожий на гранату. На лицевой стороне можно увидеть надпись \"SMOKE GRENADE\"."; 
+CW_RUSSIAN["ItemSmoothBreensWater"] = "Энергетик"; 
+CW_RUSSIAN["ItemSmoothBreensWaterDesc"] = "Аллюминевая банка с шипучим содержимым внутри, окрашена в красный цвет."; 
+CW_RUSSIAN["ItemSpecialBreensWater"] = "Содовая"; 
+CW_RUSSIAN["ItemSpecialBreensWaterDesc"] = "Аллюминевая банка с шипучим содержимым внутри, окрашена в желтый цвет и имеющая приятный запах."; 
+CW_RUSSIAN["ItemSprayCan"] = "Балончик с краской"; 
+CW_RUSSIAN["ItemSprayCanDesc"] = "Белый балончик с густой жидкостью внутри."; 
+CW_RUSSIAN["ItemStationaryRadio"] = "Радиоприемник"; 
+CW_RUSSIAN["ItemStationaryRadioDesc"] = "Антиквариатное радио."; 
+CW_RUSSIAN["ItemSteroids"] = "Стероиды"; 
+CW_RUSSIAN["ItemSteroidsDesc"] = "Баночка с небольшим количеством белого порошка."; 
+CW_RUSSIAN["ItemSuitcase"] = "Чемодан"; 
+CW_RUSSIAN["ItemSuitcaseDesc"] = "Темно-коричневый кожаный чемодан."; 
+CW_RUSSIAN["ItemVegetableOil"] = "Растительное масло"; 
+CW_RUSSIAN["ItemVegetableOilDesc"] = "Бутылка растительного масла."; 
+CW_RUSSIAN["Item357Magnum"] = ".357 Револьвер"; 
+CW_RUSSIAN["Item357MagnumDesc"] = "Пистолет покрытый серебристой краской."; 
+CW_RUSSIAN["ItemPulseRifle"] = "AR2"; 
+CW_RUSSIAN["ItemPulseRifleDesc"] = "Импульсная винтовка двойного назначения с дополнительным устройством запуска энергетических шаров, производства Альянса."; 
+CW_RUSSIAN["ItemCrossbow"] = "Арбалет"; 
+CW_RUSSIAN["ItemCrossbowDesc"] = "Построенный из подручных материалов арбалет."; 
+CW_RUSSIAN["ItemGrenade"] = "Осколочная граната"; 
+CW_RUSSIAN["ItemGrenadeDesc"] = "Грязный металлический предмет внешне похожий на гранату. На лицевой стороне можно увидеть надпись \"GRENADE\"."; 
+CW_RUSSIAN["Item9mmPistol"] = "Пистолет"; 
+CW_RUSSIAN["Item9mmPistolDesc"] = "Маленький пистолет окрашенный в темно-серый цвет."; 
+CW_RUSSIAN["ItemRPG"] = "Ракетный-Позиционный Гранатомёт"; 
+CW_RUSSIAN["ItemRPGDesc"] = "Большая ракетная установка зеленого цвета. Над курком можно увидеть надпись \"RPG. USE CORRECTLY.\""; 
+CW_RUSSIAN["ItemShotgun"] = "Дробовик"; 
+CW_RUSSIAN["ItemShotgunDesc"] = "Помповое ружье, окрашенное в серый цвет."; 
+CW_RUSSIAN["ItemMP7"] = "MP7"; 
+CW_RUSSIAN["ItemMP7Desc"] = "Компактное оружие, окрашенное в темно-серый цвет. Имеет удобную ручку."; 
+CW_RUSSIAN["ItemWhiskey"] = "Виски"; 
+CW_RUSSIAN["ItemWhiskeyDesc"] = "Окрашенная в темно-коричневый цвет бутылка."; 
+CW_RUSSIAN["ItemZipTie"] = "Стяжки"; 
+CW_RUSSIAN["ItemZipTieDesc"] = "Пара светло-оранжевых гибких кабельных стяжек."; 
+  
+CW_RUSSIAN["CharacterPermanentlyKilled"] = "ЭТОТ ПЕРСОНАЖ УБИТ"; 
+CW_RUSSIAN["GoToCharScreenToMakeNew"] = "Перейдите в главное меню и создайте нового"; 
+CW_RUSSIAN["YouAreBeingTiedUpCenter"] = "ВАС СВЯЗЫВАЮТ"; 
+CW_RUSSIAN["YouHaveBeenTiedUpCenter"] = "ВЫ БЫЛИ СВЯЗАНЫ"; 
+  
+CW_RUSSIAN["HelpCombineDispatcher"] = "Диспетчер"; 
+CW_RUSSIAN["HelpCivilProtection"] = "Гражданская Оборона"; 
+  
+CW_RUSSIAN["DexterityDesc"] = "Влияет на ловкость Ваших рук."; 
+CW_RUSSIAN["EnduranceDesc"] = "Влияет на стойкости Вашего персонажа в целом."; 
+CW_RUSSIAN["MedicalDesc"] = "Влияет на Ваши медицинские способности, т.е. на количество здоровья, которое может быть получено от аптечек или бинтов."; 
+CW_RUSSIAN["StrengthDesc"] = "Влияет на вашей силе в целом."; 
+CW_RUSSIAN["AcrobaticsDesc"] = "Влияет на высоту прыжка Вашего персонажа."; 
+CW_RUSSIAN["AgilityDesc"] = "Влияет на скорость передвижения Вашего персонажа."; 
+  
+CW_RUSSIAN["PurchasePermitGeneralGoodsHelp"] = "Купить разрешения для продажи предметов."; 
+CW_RUSSIAN["BusinessCreateHelpText"] = "Создание бизнеса, который даст Вам разрешение на продажу предметов разного уровня."; 
+CW_RUSSIAN["PurchasePermitCustomHelp"] = "Купить разрешение #1 для вашего бизнеса."; 
+  
+CW_RUSSIAN["CreateBusiness"] = "Создать Бизнес"; 
+CW_RUSSIAN["PermitsTitle"] = "Разрешения на продажу";

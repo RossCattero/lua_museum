@@ -1,0 +1,176 @@
+"STEAM_0:1:59986909"	
+{
+	"allow"	
+	{
+	}
+	"name"	"Iceleam Rosenberg"
+	"deny"	
+	{
+	}
+	"group"	"operator"
+}
+"STEAM_0:1:82036164"	
+{
+	"name"	"0"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"superadmin"
+}
+"STEAM_0:1:63680115"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Marki"
+	"group"	"admin"
+}
+"STEAM_0:1:73443421"	
+{
+	"name"	"ЛЕКАРЬ"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"operator"
+}
+"STEAM_0:0:176953057"	
+{
+	"name"	"Beres"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:122774378"	
+{
+	"name"	"Layka"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:72475913"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"VOZHD W00KI"
+	"group"	"superadmin"
+}
+"STEAM_0:1:71286927"	
+{
+	"allow"	
+	{
+	}
+	"name"	"Soil"
+	"deny"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:167308556"	
+{
+	"name"	"GOLDEN"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:90693077"	
+{
+	"name"	"Oricon"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:173897892"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Sweet Cherry"
+	"group"	"operator"
+}
+"STEAM_0:1:121959743"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Zandronum"
+	"group"	"superadmin"
+}
+"STEAM_0:1:127415963"	
+{
+	"name"	"MiXaH"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:108976924"	
+{
+	"name"	"Михай I"
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:1:85812312"	
+{
+	"allow"	
+	{
+	}
+	"name"	"Larns"
+	"deny"	
+	{
+	}
+	"group"	"admin"
+}
+"STEAM_0:0:81566201"	
+{
+	"deny"	
+	{
+	}
+	"allow"	
+	{
+	}
+	"name"	"Řõšš"
+	"group"	"superadmin"
+}

@@ -1,0 +1,2 @@
+-- WOUND.name = "Wound name"
+-- WOUND.index = 0

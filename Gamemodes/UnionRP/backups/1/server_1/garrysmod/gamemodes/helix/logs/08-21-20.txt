@@ -1,0 +1,4 @@
+[00:01:49]	C24:UCO.INVESTIGATION.PVT:934 has gained 10 tokens.
+[00:06:49]	C24:UCO.INVESTIGATION.PVT:934 has gained 10 tokens.
+[00:11:49]	C24:UCO.INVESTIGATION.PVT:934 has gained 10 tokens.
+[00:14:48]	Layka (STEAM_0:0:122774378) has disconnected.

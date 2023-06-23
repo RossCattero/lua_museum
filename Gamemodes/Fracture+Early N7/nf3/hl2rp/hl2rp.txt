@@ -1,0 +1,9 @@
+"hl2rp"
+{
+	"title"			"HL2RP"
+	"author"		"Ross"
+	"description"	"A roleplaying schema by Cloud Sixteen set in the Half-Life universe."
+	"version"		"1.3"
+	"menusystem"	"1"
+	"workshopid"	"1828876038"
+}

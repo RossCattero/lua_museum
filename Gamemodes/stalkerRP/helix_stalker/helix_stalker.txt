@@ -1,0 +1,8 @@
+
+"skeleton"
+{
+	"base" 			"helix"
+	"title" 		"STALKER RP"
+	"author" 		"Росс"
+	"menusystem"	"1"
+}

@@ -1,0 +1,9 @@
+"cwhl2rp"
+{
+	"title"			"HL2 RP"
+	"author"		"Rossie"
+	"description"	"Мы желаем Вам приятной игры на нашем сервере!"
+	"version"		"1.2"
+	"menusystem"	"1"
+	"workshopid"	"108727894"
+}

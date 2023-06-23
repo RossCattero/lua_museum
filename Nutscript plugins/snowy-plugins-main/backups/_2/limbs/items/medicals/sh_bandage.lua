@@ -1,0 +1,11 @@
+ITEM.name = "Bandage"
+ITEM.model = "models/zworld_health/bandages.mdl"
+ITEM.description = "A simple bandage for healing"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.price = 0
+ITEM.category = "Medicals"
+ITEM.injuryCategory = {1, 2, 3} // Check sh_plugin.lua, line №6 PLUGIN.DEFAULT_LIMBS
+ITEM.healAmount = 35; // The points that will be added when someone uses this
+ITEM.useSound = "usesound/bandage.wav" // the sound when it used
+ITEM.stopsBleeding = true;

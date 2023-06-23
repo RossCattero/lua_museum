@@ -1,0 +1,1 @@
+WOUND.checkTime = 20;

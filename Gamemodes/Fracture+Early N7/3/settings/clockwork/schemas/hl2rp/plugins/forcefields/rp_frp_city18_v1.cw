@@ -1,0 +1,1 @@
+{~"secondEntv":e0;"anglesv":a0,0,0;"positionv":v-1283.5251464844,-149.96875,-41.261474609375;"modelv":"models/props_combine/combine_fence01b.mdlv""isMoveablev":b0"isTurnedOnv":b1}

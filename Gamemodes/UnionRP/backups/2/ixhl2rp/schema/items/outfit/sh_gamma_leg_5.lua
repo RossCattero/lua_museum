@@ -1,0 +1,11 @@
+ITEM.name = "Мужские Синие гражданские брюки с водостойкими сапогами"
+ITEM.description = "Синие гражданские брюки с водостойкими сапогами."
+ITEM.model = "models/union/items/Gamma_citizen_leg_5_item.mdl"
+ITEM.weight = 0.2
+ITEM.width = 2
+ITEM.height = 2
+ITEM.bodyGroups = {
+    ["legs"] = 4
+}
+
+ITEM.outfitCategory = "legs"

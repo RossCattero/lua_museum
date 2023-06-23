@@ -1,0 +1,1 @@
+~"colorv":n1;"contrastv":n1;"mulgv":n0;"addrv":n0;"addbv":n0;"mulbv":n0;"mulrv":n0;"enabledv":b0"addgv":n0;"brightnessv":n0;

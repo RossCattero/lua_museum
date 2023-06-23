@@ -1,0 +1,544 @@
+[20:33:14]	Řõšš BY REVOLUTION has connected.
+[20:34:54]	Řõšš BY REVOLUTION created the character 'Ross Zheiski'
+[20:34:54]	Řõšš BY REVOLUTION loaded the character 'Ross Zheiski'
+[20:35:55]	W00KI has connected.
+[20:36:47]	W00KI (STEAM_0:1:72475913) has disconnected.
+[20:52:20]	W00KI has connected.
+[20:53:48]	W00KI created the character ':jgf'
+[20:53:48]	W00KI loaded the character ':jgf'
+[20:54:44]	Řõšš BY REVOLUTION has connected.
+[20:55:16]	Řõšš BY REVOLUTION loaded the character 'Ross Zheiski'
+[20:57:12]	Ross Zheiski entered observer.
+[20:57:25]	Ross Zheiski used command '/CharSetModel Ross Řõšš BY REVOLUTION<'.
+[20:57:30]	:jgf has taken 11 damage from worldspawn.
+[20:57:33]	Ross Zheiski exited observer.
+[20:57:40]	Ross Zheiski used command '/CharSetModel Ross models/player/furry/wolfy.mdl'.
+[20:57:49]	:jgf has taken 11 damage from worldspawn.
+[20:58:10]	Ross Zheiski has gained a 'King Cobra' #1.
+[20:58:13]	Ross Zheiski ran 'Equip' on item 'King Cobra' (#1)
+[20:58:23]	Ross Zheiski has spawned a 'Entity [540][tfa_ammo_357]'.
+[20:58:35]	:jgf has taken 24 damage from Ross Zheiski.
+[20:58:36]	:jgf has taken 19 damage from Ross Zheiski.
+[20:58:36]	:jgf has taken 14 damage from Ross Zheiski.
+[20:58:36]	:jgf has taken 98 damage from Ross Zheiski.
+[20:58:36]	Ross Zheiski has killed :jgf with tfa_ins2_thanez_cobra.
+[20:58:44]	Ross Zheiski entered observer.
+[20:59:03]	:jgf has taken 1 damage from env_fire.
+[20:59:05]	:jgf has taken 1 damage from env_fire.
+[20:59:06]	:jgf has taken 1 damage from env_fire.
+[20:59:35]	Ross Zheiski exited observer.
+[20:59:35]	Ross Zheiski entered observer.
+[20:59:44]	Ross Zheiski exited observer.
+[21:00:03]	:jgf has taken 96 damage from Ross Zheiski.
+[21:00:04]	:jgf has taken 25 damage from Ross Zheiski.
+[21:00:04]	Ross Zheiski has killed :jgf with tfa_ins2_thanez_cobra.
+[21:00:30]	Ross Zheiski ran 'take' on item 'Double Barrel' (#2)
+[21:00:30]	Ross Zheiski has gained a 'Double Barrel' #2.
+[21:00:32]	Ross Zheiski ran 'Equip' on item 'Double Barrel' (#2)
+[21:00:37]	Ross Zheiski has spawned a 'Entity [546][tfa_ammo_buckshot]'.
+[21:00:59]	Ross Zheiski set thirdperson to '[true]'.
+[21:01:13]	Ross Zheiski entered observer.
+[21:01:20]	Ross Zheiski exited observer.
+[21:01:41]	:jgf has taken 30 damage from Ross Zheiski.
+[21:02:15]	Ross Zheiski entered observer.
+[21:02:17]	Ross Zheiski exited observer.
+[21:02:23]	Zandronum has connected.
+[21:02:37]	:jgf has taken 11 damage from worldspawn.
+[21:02:39]	:jgf has taken 5 damage from Ross Zheiski.
+[21:02:40]	:jgf has taken 1 damage from Ross Zheiski.
+[21:02:46]	Ross Zheiski entered observer.
+[21:02:47]	Ross Zheiski exited observer.
+[21:02:49]	Ross Zheiski entered observer.
+[21:02:50]	Ross Zheiski exited observer.
+[21:03:08]	Zandronum created the character 'Furry Killer'
+[21:03:08]	Zandronum loaded the character 'Furry Killer'
+[21:03:14]	Ross Zheiski entered observer.
+[21:03:15]	Ross Zheiski exited observer.
+[21:03:30]	Ross Zheiski entered observer.
+[21:03:31]	Ross Zheiski exited observer.
+[21:03:40]	Ross Zheiski entered observer.
+[21:03:41]	Ross Zheiski exited observer.
+[21:03:47]	Ross Zheiski entered observer.
+[21:03:52]	Ross Zheiski exited observer.
+[21:04:00]	Ross Zheiski entered observer.
+[21:04:17]	Ross Zheiski exited observer.
+[21:04:25]	Ross Zheiski entered observer.
+[21:04:27]	Ross Zheiski exited observer.
+[21:04:29]	Ross Zheiski entered observer.
+[21:04:59]	Ross Zheiski exited observer at their location.
+[21:05:20]	Ross Zheiski entered observer.
+[21:05:23]	Ross Zheiski exited observer at their location.
+[21:05:24]	Ross Zheiski entered observer.
+[21:05:24]	Ross Zheiski exited observer at their location.
+[21:05:27]	Ross Zheiski entered observer.
+[21:05:28]	Ross Zheiski exited observer at their location.
+[21:05:36]	Ross Zheiski entered observer.
+[21:05:36]	Ross Zheiski exited observer at their location.
+[21:05:41]	Furry Killer has taken 93 damage from Ross Zheiski.
+[21:05:44]	Furry Killer has taken 98 damage from Ross Zheiski.
+[21:05:44]	Ross Zheiski has killed Furry Killer with tfa_ins2_thanez_cobra.
+[21:06:10]	Ross Zheiski entered observer.
+[21:06:13]	Ross Zheiski exited observer at their location.
+[21:06:15]	Ross Zheiski entered observer.
+[21:06:16]	Ross Zheiski exited observer at their location.
+[21:06:16]	Ross Zheiski entered observer.
+[21:06:17]	Ross Zheiski exited observer at their location.
+[21:06:26]	:jgf has taken 23 damage from Ross Zheiski.
+[21:06:44]	Furry Killer has taken 96 damage from Ross Zheiski.
+[21:06:46]	Furry Killer has taken 99 damage from Ross Zheiski.
+[21:06:46]	Ross Zheiski has killed Furry Killer with tfa_ins2_thanez_cobra.
+[21:06:57]	Furry Killer entered observer.
+[21:07:00]	Ross Zheiski entered observer.
+[21:07:01]	Ross Zheiski exited observer at their location.
+[21:07:04]	:jgf has taken 191 damage from Ross Zheiski.
+[21:07:04]	Ross Zheiski has killed :jgf with tfa_ins2_thanez_cobra.
+[21:07:13]	Furry Killer exited observer.
+[21:07:15]	Furry Killer entered observer.
+[21:07:16]	Furry Killer exited observer.
+[21:07:20]	Ross Zheiski entered observer.
+[21:07:22]	Furry Killer ran 'take' on item 'AK-74U' (#3)
+[21:07:22]	Furry Killer has gained a 'AK-74U' #3.
+[21:07:25]	Furry Killer ran 'Equip' on item 'AK-74U' (#3)
+[21:07:33]	Furry Killer has spawned a 'Entity [597][item_ammo_ar2_large]'.
+[21:07:38]	Ross Zheiski exited observer at their location.
+[21:07:48]	Ross Zheiski has taken 5 damage from Furry Killer.
+[21:07:48]	Ross Zheiski has taken 2 damage from Furry Killer.
+[21:07:50]	:jgf has taken 5 damage from Ross Zheiski.
+[21:07:59]	:jgf has spawned a 'Entity [577][tfa_ammo_357]'.
+[21:08:01]	Ross Zheiski ran 'take' on item 'GOL Magnum sniper rifle' (#4)
+[21:08:01]	Ross Zheiski has gained a 'GOL Magnum sniper rifle' #4.
+[21:08:03]	Ross Zheiski ran 'drop' on item 'Double Barrel' (#2)
+[21:08:03]	Ross Zheiski has lost a 'Double Barrel' #2.
+[21:08:04]	Ross Zheiski ran 'Equip' on item 'GOL Magnum sniper rifle' (#4)
+[21:08:04]	Furry Killer ran 'take' on item 'GOL Magnum sniper rifle' (#5)
+[21:08:04]	Furry Killer has gained a 'GOL Magnum sniper rifle' #5.
+[21:08:06]	Furry Killer ran 'Equip' on item 'GOL Magnum sniper rifle' (#5)
+[21:08:09]	Ross Zheiski has spawned a 'Entity [594][tfa_ammo_winchester]'.
+[21:08:09]	Furry Killer ran 'drop' on item 'AK-74U' (#3)
+[21:08:09]	Furry Killer has lost a 'AK-74U' #3.
+[21:08:10]	Ross Zheiski has spawned a 'Entity [603][tfa_ammo_sniper_rounds]'.
+[21:08:11]	Furry Killer ran 'Equip' on item 'GOL Magnum sniper rifle' (#5)
+[21:08:21]	Furry Killer has taken 154 damage from Ross Zheiski.
+[21:08:21]	Ross Zheiski has killed Furry Killer with tfa_ins2_gol.
+[21:08:22]	Furry Killer has spawned a 'Entity [609][tfa_ammo_sniper_rounds]'.
+[21:08:24]	:jgf has taken 158 damage from Ross Zheiski.
+[21:08:24]	Ross Zheiski has killed :jgf with tfa_ins2_gol.
+[21:08:31]	Ross Zheiski destroyed a 'Double Barrel' #2.
+[21:08:31]	Furry Killer has spawned a 'Entity [492][tfa_ammo_sniper_rounds]'.
+[21:08:33]	:jgf has spawned a 'Entity [596][tfa_ammo_smg]'.
+[21:08:34]	:jgf has spawned a 'Entity [492][tfa_ammo_smg]'.
+[21:08:35]	Furry Killer has spawned a 'Entity [596][tfa_ammo_sniper_rounds]'.
+[21:08:35]	Furry Killer has spawned a 'Entity [492][tfa_ammo_sniper_rounds]'.
+[21:08:35]	Furry Killer has spawned a 'Entity [597][tfa_ammo_sniper_rounds]'.
+[21:08:36]	Ross Zheiski entered observer.
+[21:08:36]	Ross Zheiski exited observer at their location.
+[21:08:46]	Ross Zheiski entered observer.
+[21:08:46]	Ross Zheiski exited observer at their location.
+[21:08:47]	Ross Zheiski entered observer.
+[21:08:48]	Ross Zheiski exited observer at their location.
+[21:08:48]	Furry Killer ran 'take' on item 'GOL Magnum sniper rifle' (#6)
+[21:08:48]	Furry Killer has gained a 'GOL Magnum sniper rifle' #6.
+[21:08:50]	Ross Zheiski entered observer.
+[21:08:50]	Furry Killer ran 'Equip' on item 'GOL Magnum sniper rifle' (#6)
+[21:08:51]	Ross Zheiski exited observer at their location.
+[21:08:52]	Furry Killer ran 'drop' on item 'GOL Magnum sniper rifle' (#5)
+[21:08:52]	Furry Killer has lost a 'GOL Magnum sniper rifle' #5.
+[21:08:54]	Ross Zheiski entered observer.
+[21:08:55]	Ross Zheiski exited observer at their location.
+[21:09:06]	Ross Zheiski has taken 76 damage from Furry Killer.
+[21:09:08]	Ross Zheiski has taken 19 damage from Furry Killer.
+[21:09:08]	Furry Killer has killed Ross Zheiski with tfa_ins2_gol.
+[21:09:12]	Furry Killer entered observer.
+[21:09:14]	Ross Zheiski entered observer.
+[21:09:18]	Furry Killer exited observer.
+[21:09:19]	:jgf entered observer.
+[21:09:22]	:jgf exited observer.
+[21:09:24]	:jgf entered observer.
+[21:09:25]	Furry Killer entered observer.
+[21:09:25]	:jgf exited observer.
+[21:09:25]	Furry Killer exited observer.
+[21:09:26]	Furry Killer entered observer.
+[21:09:27]	:jgf entered observer.
+[21:09:27]	Furry Killer exited observer.
+[21:09:28]	:jgf exited observer.
+[21:09:28]	Furry Killer entered observer.
+[21:09:29]	Furry Killer exited observer.
+[21:09:29]	Ross Zheiski has gained a 'AR-15' #7.
+[21:09:30]	Furry Killer entered observer.
+[21:09:30]	Furry Killer exited observer.
+[21:09:30]	Furry Killer entered observer.
+[21:09:31]	Furry Killer exited observer.
+[21:09:33]	Ross Zheiski has spawned a 'Entity [495][tfa_ammo_smg1_grenade_large]'.
+[21:09:35]	:jgf entered observer.
+[21:09:37]	Ross Zheiski ran 'Equip' on item 'AR-15' (#7)
+[21:09:37]	Furry Killer entered observer.
+[21:09:37]	:jgf exited observer.
+[21:09:37]	Furry Killer exited observer.
+[21:09:38]	:jgf entered observer.
+[21:09:38]	:jgf exited observer.
+[21:09:39]	:jgf entered observer.
+[21:09:40]	:jgf exited observer.
+[21:09:48]	Furry Killer entered observer.
+[21:09:49]	Furry Killer exited observer at their location.
+[21:09:53]	Ross Zheiski ran 'drop' on item 'AR-15' (#7)
+[21:09:53]	Ross Zheiski has lost a 'AR-15' #7.
+[21:10:06]	:jgf has taken 152 damage from Furry Killer.
+[21:10:06]	Furry Killer has killed :jgf with tfa_ins2_gol.
+[21:10:18]	:jgf ran 'take' on item 'GOL Magnum sniper rifle' (#5)
+[21:10:18]	:jgf has gained a 'GOL Magnum sniper rifle' #5.
+[21:10:26]	:jgf has spawned a 'Entity [594][tfa_ammo_ar2]'.
+[21:10:41]	Furry Killer has taken 44 damage from :jgf.
+[21:10:43]	Furry Killer has taken 6 damage from :jgf.
+[21:10:43]	Furry Killer has taken 18 damage from :jgf.
+[21:10:44]	:jgf has taken 19 damage from Furry Killer.
+[21:10:45]	:jgf has taken 4 damage from Furry Killer.
+[21:10:47]	:jgf has taken 72 damage from Furry Killer.
+[21:10:55]	:jgf has taken 18 damage from Furry Killer.
+[21:10:55]	Furry Killer has killed :jgf with tfa_ins2_gol.
+[21:11:08]	:jgf has spawned a 'Entity [495][tfa_ammo_buckshot]'.
+[21:11:09]	:jgf has spawned a 'Entity [596][tfa_ammo_buckshot]'.
+[21:11:15]	Furry Killer set color to '[255, 0, 0]'.
+[21:11:19]	:jgf has taken 144 damage from Furry Killer.
+[21:11:19]	Furry Killer has killed :jgf with tfa_ins2_gol.
+[21:11:29]	:jgf entered observer.
+[21:11:31]	:jgf exited observer.
+[21:11:31]	:jgf entered observer.
+[21:11:55]	:jgf exited observer at their location.
+[21:12:01]	:jgf has spawned a 'Entity [594][tfa_ammo_buckshot]'.
+[21:12:02]	Furry Killer set year to '2020'.
+[21:12:13]	Furry Killer set month to '8'.
+[21:12:15]	:jgf entered observer.
+[21:12:18]	:jgf exited observer at their location.
+[21:12:19]	Furry Killer has taken 56 damage from :jgf.
+[21:12:19]	:jgf has killed Furry Killer with tfa_ins2_spas12.
+[21:12:20]	Furry Killer set day to '12'.
+[21:12:23]	:jgf entered observer.
+[21:12:32]	:jgf exited observer at their location.
+[21:12:39]	:jgf entered observer.
+[21:13:21]	:jgf exited observer at their location.
+[21:13:22]	:jgf entered observer.
+[21:13:23]	:jgf exited observer at their location.
+[21:13:32]	:jgf entered observer.
+[21:13:35]	:jgf exited observer at their location.
+[21:13:37]	:jgf has taken 115 damage from worldspawn.
+[21:13:37]	worldspawn has killed :jgf.
+[21:13:39]	Furry Killer used command '/PlyWhitelist Furry Civil Protection'.
+[21:13:50]	Furry Killer used command '/PlyWhitelist Furry Министерство Порядка'.
+[21:14:01]	:jgf entered observer.
+[21:14:04]	Furry Killer ran 'TakeDownAttributes' on item 'GOL Magnum sniper rifle' (#6)
+[21:14:06]	Furry Killer ran 'drop' on item 'GOL Magnum sniper rifle' (#6)
+[21:14:06]	Furry Killer has lost a 'GOL Magnum sniper rifle' #6.
+[21:14:21]	:jgf exited observer at their location.
+[21:14:24]	:jgf ran 'EatUp' on item 'Арбуз' (#8)
+[21:14:28]	:jgf ran 'take' on item 'Арбуз' (#9)
+[21:14:28]	:jgf has gained a 'Арбуз' #9.
+[21:14:33]	:jgf ran 'EatUp' on item 'Арбуз' (#9)
+[21:14:35]	:jgf ran 'Equip' on item 'GOL Magnum sniper rifle' (#5)
+[21:14:45]	Furry Killer used command '/CharGiveFlag Killer EPT'.
+[21:14:46]	:jgf entered observer.
+[21:14:48]	Furry Killer used command '/CharGiveFlag Killer ept'.
+[21:14:51]	Furry Killer entered observer.
+[21:14:52]	Furry Killer exited observer at their location.
+[21:15:09]	Furry Killer ran 'take' on item 'NOVA benelli' (#9)
+[21:15:09]	Furry Killer has gained a 'NOVA benelli' #9.
+[21:15:12]	Furry Killer ran 'Equip' on item 'NOVA benelli' (#9)
+[21:15:17]	Furry Killer has spawned a 'Entity [759][tfa_ammo_buckshot]'.
+[21:15:17]	Furry Killer has spawned a 'Entity [760][tfa_ammo_buckshot]'.
+[21:15:17]	Furry Killer has spawned a 'Entity [770][tfa_ammo_buckshot]'.
+[21:15:17]	:jgf exited observer at their location.
+[21:15:18]	Furry Killer has spawned a 'Entity [771][tfa_ammo_buckshot]'.
+[21:15:21]	W00KI (STEAM_0:1:72475913) has disconnected.
+[21:15:32]	Furry Killer entered observer.
+[21:15:40]	Furry Killer exited observer at their location.
+[21:15:50]	Furry Killer entered observer.
+[21:16:42]	Furry Killer exited observer at their location.
+[21:16:59]	Ross Zheiski exited observer at their location.
+[21:17:04]	Ross Zheiski entered observer.
+[21:17:58]	Furry Killer used command '/PlyWhitelist furry Министерство Обороны'.
+[21:18:14]	Furry Killer used command '/PlyWhitelist furry Министерство обороны'.
+[21:18:21]	Zandronum (STEAM_0:1:121959743) deleted character 'Furry Killer'
+[21:18:43]	Zandronum created the character 'OTA-ECHO.OWS-98193'
+[21:18:43]	Zandronum loaded the character 'OTA-ECHO.OWS-98193'
+[21:18:45]	OTA-ECHO.OWS-98193 entered observer.
+[21:18:53]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:18:58]	Ross Zheiski exited observer at their location.
+[21:19:18]	OTA-ECHO.OWS-98193 ran 'Place' on item 'Union Lock' (#9)
+[21:19:19]	OTA-ECHO.OWS-98193 ran 'take' on item 'Union Lock' (#9)
+[21:19:19]	OTA-ECHO.OWS-98193 has gained a 'Union Lock' #9.
+[21:19:20]	Ross Zheiski used command '/CharSetModel Ross models/union/props/beefstew.mdl'.
+[21:19:23]	OTA-ECHO.OWS-98193 ran 'Place' on item 'Union Lock' (#9)
+[21:19:37]	OTA-ECHO.OWS-98193 ran 'take' on item 'Карточка замка союза' (#9)
+[21:19:37]	OTA-ECHO.OWS-98193 has gained a 'Карточка замка союза' #9.
+[21:20:03]	OTA-ECHO.OWS-98193 ran 'take' on item 'Карточка от тяжелого замка' (#10)
+[21:20:03]	OTA-ECHO.OWS-98193 has gained a 'Карточка от тяжелого замка' #10.
+[21:20:06]	Ross Zheiski entered observer.
+[21:20:07]	OTA-ECHO.OWS-98193 ran 'take' on item 'Combine Lock' (#11)
+[21:20:07]	OTA-ECHO.OWS-98193 has gained a 'Combine Lock' #11.
+[21:20:10]	OTA-ECHO.OWS-98193 ran 'Place' on item 'Combine Lock' (#11)
+[21:20:17]	Ross Zheiski exited observer at their location.
+[21:20:18]	OTA-ECHO.OWS-98193 entered observer.
+[21:20:26]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:20:40]	OTA-ECHO.OWS-98193 ran 'take' on item 'G36C' (#11)
+[21:20:40]	OTA-ECHO.OWS-98193 has gained a 'G36C' #11.
+[21:20:42]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Карточка от тяжелого замка' (#10)
+[21:20:42]	OTA-ECHO.OWS-98193 has lost a 'Карточка от тяжелого замка' #10.
+[21:20:43]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Карточка замка союза' (#9)
+[21:20:43]	OTA-ECHO.OWS-98193 has lost a 'Карточка замка союза' #9.
+[21:20:49]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'G36C' (#11)
+[21:20:55]	OTA-ECHO.OWS-98193 has spawned a 'Entity [582][tfa_ammo_ar2]'.
+[21:20:55]	OTA-ECHO.OWS-98193 has spawned a 'Entity [585][tfa_ammo_ar2]'.
+[21:20:55]	OTA-ECHO.OWS-98193 has spawned a 'Entity [594][tfa_ammo_ar2]'.
+[21:21:12]	OTA-ECHO.OWS-98193 ran 'take' on item 'Прицел COBRA' (#12)
+[21:21:12]	OTA-ECHO.OWS-98193 has gained a 'Прицел COBRA' #12.
+[21:21:15]	OTA-ECHO.OWS-98193 ran 'take' on item 'Рукоятка' (#13)
+[21:21:15]	OTA-ECHO.OWS-98193 has gained a 'Рукоятка' #13.
+[21:21:18]	OTA-ECHO.OWS-98193 ran 'OnUse' on item 'Прицел COBRA' (#12)
+[21:21:19]	OTA-ECHO.OWS-98193 ran 'OnUse' on item 'Рукоятка' (#13)
+[21:22:04]	Zandronum created the character 'Илларион Стрельников'
+[21:22:05]	Ross Zheiski ran 'take' on item 'Монтировка' (#12)
+[21:22:05]	Ross Zheiski has gained a 'Монтировка' #12.
+[21:22:07]	Ross Zheiski ran 'drop' on item 'King Cobra' (#1)
+[21:22:07]	Ross Zheiski has lost a 'King Cobra' #1.
+[21:22:07]	Ross Zheiski ran 'drop' on item 'GOL Magnum sniper rifle' (#4)
+[21:22:07]	Ross Zheiski has lost a 'GOL Magnum sniper rifle' #4.
+[21:22:08]	Zandronum loaded the character 'Илларион Стрельников'
+[21:22:09]	Ross Zheiski ran 'Equip' on item 'Монтировка' (#12)
+[21:22:12]	Ross Zheiski destroyed a 'GOL Magnum sniper rifle' #4.
+[21:22:13]	Ross Zheiski destroyed a 'King Cobra' #1.
+[21:22:13]	Ross Zheiski entered observer.
+[21:22:14]	Zandronum loaded the character 'OTA-ECHO.OWS-98193'
+[21:22:18]	Ross Zheiski exited observer at their location.
+[21:22:30]	OTA-ECHO.OWS-98193 ran 'TakeDownAttributes' on item 'G36C' (#11)
+[21:22:30]	OTA-ECHO.OWS-98193 has gained a 'Прицел COBRA' #13.
+[21:22:30]	OTA-ECHO.OWS-98193 has gained a 'Рукоятка' #14.
+[21:22:45]	OTA-ECHO.OWS-98193 ran 'OnUse' on item 'Прицел COBRA' (#13)
+[21:22:49]	OTA-ECHO.OWS-98193 ran 'EquipUn' on item 'G36C' (#11)
+[21:22:50]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'G36C' (#11)
+[21:22:55]	OTA-ECHO.OWS-98193 ran 'TakeDownAttributes' on item 'G36C' (#11)
+[21:22:55]	OTA-ECHO.OWS-98193 has gained a 'Прицел COBRA' #15.
+[21:23:00]	OTA-ECHO.OWS-98193 ran 'drop' on item 'G36C' (#11)
+[21:23:00]	OTA-ECHO.OWS-98193 has lost a 'G36C' #11.
+[21:23:01]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Прицел COBRA' (#15)
+[21:23:01]	OTA-ECHO.OWS-98193 has lost a 'Прицел COBRA' #15.
+[21:23:02]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Рукоятка' (#14)
+[21:23:02]	OTA-ECHO.OWS-98193 has lost a 'Рукоятка' #14.
+[21:23:13]	OTA-ECHO.OWS-98193 entered observer.
+[21:23:14]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:23:27]	OTA-ECHO.OWS-98193 ran 'EatABit' on item 'Сок 'Армия Союза'' (#16)
+[21:23:30]	OTA-ECHO.OWS-98193 ran 'DrinkDown' on item 'Сок 'Армия Союза'' (#16)
+[21:23:40]	OTA-ECHO.OWS-98193 ran 'EatABit' on item 'Пиво 'Берес'' (#17)
+[21:23:41]	OTA-ECHO.OWS-98193 ran 'DrinkDown' on item 'Пиво 'Берес'' (#17)
+[21:23:44]	OTA-ECHO.OWS-98193 ran 'take' on item 'Пиво 'Берес'' (#17)
+[21:23:44]	OTA-ECHO.OWS-98193 has gained a 'Пиво 'Берес'' #17.
+[21:23:45]	Ross Zheiski used command '/CharSetModel Ross models/frp/citizen_male_02.mdl'.
+[21:23:48]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Пиво 'Берес'' (#17)
+[21:23:48]	OTA-ECHO.OWS-98193 has lost a 'Пиво 'Берес'' #17.
+[21:23:52]	OTA-ECHO.OWS-98193 ran 'take' on item 'Пиво 'Берес'' (#17)
+[21:23:52]	OTA-ECHO.OWS-98193 has gained a 'Пиво 'Берес'' #17.
+[21:23:52]	Ross Zheiski ran 'drop' on item 'Монтировка' (#12)
+[21:23:52]	Ross Zheiski has lost a 'Монтировка' #12.
+[21:23:54]	Ross Zheiski entered observer.
+[21:23:54]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Пиво 'Берес'' (#17)
+[21:23:54]	OTA-ECHO.OWS-98193 has lost a 'Пиво 'Берес'' #17.
+[21:23:54]	Ross Zheiski exited observer at their location.
+[21:24:27]	OTA-ECHO.OWS-98193 set intro to '[false]'.
+[21:24:43]	OTA-ECHO.OWS-98193 set vignette to '[false]'.
+[21:24:44]	OTA-ECHO.OWS-98193 set vignette to '[true]'.
+[21:24:45]	OTA-ECHO.OWS-98193 set vignette to '[false]'.
+[21:24:47]	OTA-ECHO.OWS-98193 set vignette to '[true]'.
+[21:24:49]	OTA-ECHO.OWS-98193 set vignette to '[false]'.
+[21:24:50]	OTA-ECHO.OWS-98193 set vignette to '[true]'.
+[21:25:20]	OTA-ECHO.OWS-98193 set oocDelay to '10000'.
+[21:25:22]	OTA-ECHO.OWS-98193 set oocDelay to '3565'.
+[21:25:23]	OTA-ECHO.OWS-98193 set oocDelay to '1117'.
+[21:25:24]	OTA-ECHO.OWS-98193 set oocDelay to '208'.
+[21:25:30]	OTA-ECHO.OWS-98193 set oocDelay to '100'.
+[21:25:36]	OTA-ECHO.OWS-98193 set loocDelay to '5'.
+[21:27:01]	OTA-ECHO.OWS-98193 set music to '""'.
+[21:27:09]	OTA-ECHO.OWS-98193 set defaultMoney to '848'.
+[21:27:10]	OTA-ECHO.OWS-98193 set defaultMoney to '0'.
+[21:27:14]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:27:27]	OTA-ECHO.OWS-98193 set chatMax to '370'.
+[21:27:31]	OTA-ECHO.OWS-98193 set chatMax to '494'.
+[21:27:51]	Ross Zheiski used command '/CharSetHunger Ross 100'.
+[21:27:55]	Ross Zheiski used command '/CharSetThirst Ross 100'.
+[21:28:06]	Ross Zheiski entered observer.
+[21:28:08]	Ross Zheiski exited observer at their location.
+[21:28:11]	Ross Zheiski has taken 101 damage from worldspawn.
+[21:28:11]	worldspawn has killed Ross Zheiski.
+[21:28:28]	OTA-ECHO.OWS-98193 ran 'take' on item 'Salewa FIRST AID KIT' (#18)
+[21:28:28]	OTA-ECHO.OWS-98193 has gained a 'Salewa FIRST AID KIT' #18.
+[21:28:34]	OTA-ECHO.OWS-98193 ran 'Medic' on item 'Salewa FIRST AID KIT' (#18)
+[21:28:47]	OTA-ECHO.OWS-98193 has spawned a 'Entity [582][r_part_terminal]'.
+[21:29:04]	OTA-ECHO.OWS-98193 used command '/PlyGiveFlag OTA ept'.
+[21:29:58]	Řõšš BY REVOLUTION (STEAM_0:0:81566201) deleted character 'Ross Zheiski'
+[21:30:07]	Řõšš BY REVOLUTION created the character 'Tets tete'
+[21:30:07]	Řõšš BY REVOLUTION loaded the character 'Tets tete'
+[21:30:27]	OTA-ECHO.OWS-98193 ran 'take' on item 'Партбилет' (#19)
+[21:30:27]	OTA-ECHO.OWS-98193 has gained a 'Партбилет' #19.
+[21:30:33]	Tets tete entered observer.
+[21:30:36]	OTA-ECHO.OWS-98193 ran 'ShowItem' on item 'Партбилет' (#19)
+[21:30:40]	OTA-ECHO.OWS-98193 ran 'drop' on item 'Партбилет' (#19)
+[21:30:40]	OTA-ECHO.OWS-98193 has lost a 'Партбилет' #19.
+[21:30:44]	OTA-ECHO.OWS-98193 entered observer.
+[21:30:45]	Tets tete exited observer at their location.
+[21:30:46]	Tets tete entered observer.
+[21:30:48]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:30:51]	OTA-ECHO.OWS-98193 entered observer.
+[21:30:55]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:07]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:16]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:16]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:17]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:17]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:18]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:19]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:19]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:20]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:20]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:21]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:22]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:22]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:24]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:25]	OTA-ECHO.OWS-98193 entered observer.
+[21:31:26]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:31:38]	OTA-ECHO.OWS-98193 entered observer.
+[21:32:10]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:32:11]	OTA-ECHO.OWS-98193 entered observer.
+[21:32:12]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:32:12]	OTA-ECHO.OWS-98193 entered observer.
+[21:32:14]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:32:35]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:32:36]	OTA-ECHO.OWS-98193 entered observer.
+[21:32:37]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:35:47]	OTA-ECHO.OWS-98193 ran 'take' on item 'P226' (#19)
+[21:35:47]	OTA-ECHO.OWS-98193 has gained a 'P226' #19.
+[21:35:50]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'P226' (#19)
+[21:35:59]	OTA-ECHO.OWS-98193 has spawned a 'Entity [494][tfa_ammo_ar2]'.
+[21:36:01]	OTA-ECHO.OWS-98193 has spawned a 'Entity [496][tfa_ammo_pistol]'.
+[21:36:01]	OTA-ECHO.OWS-98193 has spawned a 'Entity [541][tfa_ammo_pistol]'.
+[21:36:01]	OTA-ECHO.OWS-98193 has spawned a 'Entity [577][tfa_ammo_pistol]'.
+[21:36:01]	OTA-ECHO.OWS-98193 has spawned a 'Entity [579][tfa_ammo_pistol]'.
+[21:36:01]	OTA-ECHO.OWS-98193 has spawned a 'Entity [584][tfa_ammo_pistol]'.
+[21:37:14]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:42:14]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:43:49]	[OOC] OTA-ECHO.OWS-98193: аыхфздаыхзыа
+[21:44:33]	OTA-ECHO.OWS-98193 ran 'take' on item 'MP7' (#20)
+[21:44:33]	OTA-ECHO.OWS-98193 has gained a 'MP7' #20.
+[21:44:36]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'MP7' (#20)
+[21:44:51]	OTA-ECHO.OWS-98193 has spawned a 'Entity [496][tfa_ammo_smg1_grenade]'.
+[21:44:54]	OTA-ECHO.OWS-98193 has spawned a 'Entity [496][tfa_ammo_smg]'.
+[21:44:54]	OTA-ECHO.OWS-98193 has spawned a 'Entity [541][tfa_ammo_smg]'.
+[21:44:54]	OTA-ECHO.OWS-98193 has spawned a 'Entity [577][tfa_ammo_smg]'.
+[21:44:54]	OTA-ECHO.OWS-98193 has spawned a 'Entity [579][tfa_ammo_smg]'.
+[21:47:14]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:49:00]	Tets tete exited observer at their location.
+[21:49:01]	Tets tete entered observer.
+[21:49:01]	Tets tete exited observer at their location.
+[21:49:02]	Tets tete entered observer.
+[21:49:04]	Tets tete exited observer at their location.
+[21:49:04]	Tets tete has taken 210 damage from worldspawn.
+[21:49:04]	worldspawn has killed Tets tete.
+[21:49:13]	Tets tete entered observer.
+[21:50:02]	Tets tete exited observer at their location.
+[21:50:03]	Tets tete has taken 2 damage from Tets tete.
+[21:50:03]	Tets tete has taken 4 damage from Tets tete.
+[21:50:03]	Tets tete entered observer.
+[21:50:56]	Tets tete exited observer at their location.
+[21:50:56]	Tets tete entered observer.
+[21:52:07]	OTA-ECHO.OWS-98193 ran 'drop' on item 'MP7' (#20)
+[21:52:07]	OTA-ECHO.OWS-98193 has lost a 'MP7' #20.
+[21:52:12]	OTA-ECHO.OWS-98193 ran 'take' on item 'GALIL' (#21)
+[21:52:12]	OTA-ECHO.OWS-98193 has gained a 'GALIL' #21.
+[21:52:13]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'GALIL' (#21)
+[21:53:26]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:54:28]	OTA-ECHO.OWS-98193 entered observer.
+[21:54:33]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:54:33]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:18]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:21]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:25]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:26]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:27]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:27]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:28]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:29]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:29]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:29]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:29]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:29]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:30]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:30]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:30]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:30]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:30]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:30]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:31]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:55:31]	OTA-ECHO.OWS-98193 entered observer.
+[21:55:32]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:56:21]	OTA-ECHO.OWS-98193 entered observer.
+[21:56:28]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:56:28]	OTA-ECHO.OWS-98193 entered observer.
+[21:56:29]	OTA-ECHO.OWS-98193 exited observer at their location.
+[21:56:34]	OTA-ECHO.OWS-98193 ran 'drop' on item 'GALIL' (#21)
+[21:56:34]	OTA-ECHO.OWS-98193 has lost a 'GALIL' #21.
+[21:56:44]	OTA-ECHO.OWS-98193 ran 'take' on item 'SCAR L' (#20)
+[21:56:44]	OTA-ECHO.OWS-98193 has gained a 'SCAR L' #20.
+[21:56:46]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'SCAR L' (#20)
+[21:57:35]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_zombie]'.
+[21:57:47]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_antlion]'.
+[21:58:00]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_metropolice]'.
+[21:58:02]	OTA-ECHO.OWS-98193 has taken 10 damage from npc_metropolice.
+[21:58:04]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_metropolice]'.
+[21:58:17]	Tets tete exited observer at their location.
+[21:58:24]	Tets tete entered observer.
+[21:58:26]	OTA-ECHO.OWS-98193 has gained 40 tokens.
+[21:59:23]	OTA-ECHO.OWS-98193 ran 'take' on item 'SPAS-12' (#21)
+[21:59:23]	OTA-ECHO.OWS-98193 has gained a 'SPAS-12' #21.
+[21:59:25]	OTA-ECHO.OWS-98193 ran 'drop' on item 'SCAR L' (#20)
+[21:59:25]	OTA-ECHO.OWS-98193 has lost a 'SCAR L' #20.
+[21:59:34]	OTA-ECHO.OWS-98193 ran 'Equip' on item 'SPAS-12' (#21)
+[21:59:50]	OTA-ECHO.OWS-98193 has spawned a 'Entity [496][item_box_buckshot]'.
+[21:59:50]	OTA-ECHO.OWS-98193 has spawned a 'Entity [596][item_box_buckshot]'.
+[21:59:50]	OTA-ECHO.OWS-98193 has spawned a 'Entity [597][item_box_buckshot]'.
+[21:59:50]	OTA-ECHO.OWS-98193 has spawned a 'Entity [609][item_box_buckshot]'.
+[22:00:13]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_antlion]'.
+[22:00:24]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:27]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:27]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:28]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:28]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:29]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:29]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:30]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:30]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:31]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:31]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:31]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:31]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:32]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:32]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:32]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:32]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:32]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:33]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:33]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:00:34]	OTA-ECHO.OWS-98193 entered observer.
+[22:00:35]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:01:20]	OTA-ECHO.OWS-98193 has spawned a 'NPC [496][npc_antlionguard]'.
+[22:01:34]	OTA-ECHO.OWS-98193 entered observer.
+[22:01:40]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:01:43]	OTA-ECHO.OWS-98193 entered observer.
+[22:01:48]	Tets tete exited observer at their location.
+[22:01:50]	Tets tete has taken 27 damage from worldspawn.
+[22:01:50]	Tets tete entered observer.
+[22:01:51]	OTA-ECHO.OWS-98193 exited observer at their location.
+[22:01:51]	OTA-ECHO.OWS-98193 entered observer.
+[22:01:52]	Tets tete exited observer at their location.
+[22:01:54]	Tets tete has taken 41 damage from worldspawn.
+[22:01:56]	Tets tete entered observer.
+[22:01:56]	Zandronum (STEAM_0:1:121959743) has disconnected.
+[22:01:57]	Tets tete exited observer at their location.
+[22:01:57]	Tets tete has taken 219 damage from worldspawn.
+[22:01:57]	worldspawn has killed Tets tete.
+[22:02:01]	Řõšš BY REVOLUTION (STEAM_0:0:81566201) has disconnected.

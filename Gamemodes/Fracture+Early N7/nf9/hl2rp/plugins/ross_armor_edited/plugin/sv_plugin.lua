@@ -1,0 +1,366 @@
+
+local PLUGIN = PLUGIN;
+local p = FindMetaTable( "Player" );
+local math = math;
+local m = math.Clamp;
+
+function p:AddCharClothesInfo(info, amount)
+    local getClothesInfoData = self:GetCharacterData('AdditionalClothesInfo');
+
+    if getClothesInfoData[info] then
+        getClothesInfoData[info] = getClothesInfoData[info] + amount
+    end;
+end;
+
+function p:GetCharClothesInfo(info)
+    local getClothesInfoData = self:GetCharacterData('AdditionalClothesInfo');
+
+    return getClothesInfoData[info];
+end;
+
+function p:GetClothesSlot()
+    local clothes = self:GetCharacterData('ClothesSlot')
+
+    return clothes
+end;
+
+function p:GetAllWarming()
+    local clothes = self:GetCharacterData('ClothesSlot')
+    local item1 = clothes['head']
+    local item2 = clothes['body']
+    local item3 = clothes['legs']
+    local item4 = clothes['hands']
+
+    if self:FindItemByID(item1) then
+        item1 = self:FindItemByID(item1):GetData('ClothesWarm')
+    else
+        item1 = 0
+    end;
+    if self:FindItemByID(item2) then
+        item2 = self:FindItemByID(item2):GetData('ClothesWarm')
+    else
+        item2 = 0
+    end;
+    if self:FindItemByID(item3) then
+        item3 = self:FindItemByID(item3):GetData('ClothesWarm')
+    else
+        item3 = 0
+    end;
+    if self:FindItemByID(item4) then
+        item4 = self:FindItemByID(item4):GetData('ClothesWarm')
+    else
+        item4 = 0
+    end;
+
+    return item1 + item2 + item3 + item4
+end;
+
+function p:GetFilterQuality()
+    local slots = player:GetClothesSlot();
+    local uniqueItemID = '';
+
+    if slots['head'] != "" then
+        uniqueItemID = slots['head'];
+    elseif slots['gasmask'] != "" then
+        uniqueItemID = slots['gasmask'];
+    elseif slots['body'] != "" then
+        uniqueItemID = slots['body'];
+    else
+        return;
+    end;
+
+    local item = player:FindItemByID(uniqueItemID);
+    local hasgasmask = item:GetData('HasGasmask');
+    local filterQuality = item:GetData('FilterQuality');
+    local hasFilter = item:GetData('HasFilter');
+
+    if item && hasgasmask && hasFilter then
+        return filterQuality;
+    end;
+
+    return 0;
+end;
+
+function p:GasmaskInfo()
+    local iscombine = Schema:PlayerIsCombine(self)
+    local fac = self:GetFaction();
+    local gi = self:GetCharacterData("GasMaskInfo")
+    if iscombine then
+        if fac == FACTION_MPF then
+            return gi
+        elseif fac == FACTION_OTA then
+            return 10;
+        end;
+    end;
+
+    return 0;
+end;
+
+function p:SetFilterQuality(number)
+    local slots = player:GetClothesSlot();
+    local uniqueItemID = '';
+
+    if slots['head'] != "" then
+        uniqueItemID = slots['head'];
+    elseif slots['gasmask'] != "" then
+        uniqueItemID = slots['gasmask'];
+    elseif slots['body'] != "" then
+        uniqueItemID = slots['body'];
+    else
+        return;
+    end;
+
+    local item = player:FindItemByID(uniqueItemID);
+    local hasgasmask = item:GetData('HasGasmask');
+    local filterQuality = item:GetData('FilterQuality');
+
+    if item && hasgasmask && hasFilter && filterQuality > 0 then
+        item:SetData('FilterQuality', filterQuality);
+    end;
+end;
+
+function PLUGIN:PlayerSaveCharacterData(player, data)
+	if (data["ClothesSlot"]) then
+		data["ClothesSlot"] = data["ClothesSlot"];
+	else
+	    data["ClothesSlot"] = {
+            head = "",
+            body = "",
+            legs = "",
+            gasmask = "",
+            armorKevlar = "",
+            backpack = '',
+            hands = '',
+            steto = '',
+            tools = '',
+            knee = '',
+            elbow = ''
+		};
+    end;
+
+    if data['bgs'] then
+        data['bgs'] = data['bgs']
+    else
+        data['bgs'] = {}
+    end;
+
+    if data['AdditionalClothesInfo'] then
+        data["AdditionalClothesInfo"] = data["AdditionalClothesInfo"];
+    else
+        data['AdditionalClothesInfo'] = {
+            decreaseSpeed = 0,
+            incWeight = 0,
+            incSpace = 0
+        };
+    end;
+      
+end;
+
+function PLUGIN:PlayerRestoreCharacterData(player, data)
+	if ( !data["ClothesSlot"] ) then
+		data["ClothesSlot"] = {
+            head = "",
+            body = "",
+            legs = "",
+            gasmask = "",
+            armorKevlar = "",
+            backpack = '',
+            hands = '',
+            steto = '',
+            tools = '',
+            knee = '',
+            elbow = ''
+		};
+    end;
+
+    if !data['bgs'] then
+        data['bgs'] = {}
+    end;
+
+    if !data['AdditionalClothesInfo'] then
+        data['AdditionalClothesInfo'] = {
+            decreaseSpeed = 0,
+            incWeight = 0,
+            incSpace = 0
+        }
+    end;
+    if !data["GasMaskInfo"] && Schema:PlayerIsCombine(player) then
+        data["GasMaskInfo"] = 0;
+    end;
+end;
+
+function PLUGIN:PlayerSetSharedVars(player, curTime)
+    player:SetSharedVar("GasMaskInfo", player:GetCharacterData("GasMaskInfo"));
+end;
+
+function PLUGIN:PlayerThink(player, curTime, infoTable)
+    local runSpeed = Clockwork.config:Get("run_speed"):Get();
+    local walkspeed = Clockwork.config:Get("walk_speed"):Get();
+    local jumpPower = Clockwork.config:Get("jump_power"):Get();
+
+    infoTable.runSpeed = m(infoTable.runSpeed - player:GetCharClothesInfo('decreaseSpeed'), 1, runSpeed);
+    infoTable.walkSpeed = m(infoTable.walkSpeed - player:GetCharClothesInfo('decreaseSpeed'), 1, walkspeed);
+    infoTable.jumpPower = m(infoTable.jumpPower - player:GetCharClothesInfo('decreaseSpeed'), 1, jumpPower);
+    infoTable.inventoryWeight = infoTable.inventoryWeight + player:GetCharClothesInfo('incWeight');
+    infoTable.inventorySpace = infoTable.inventorySpace + player:GetCharClothesInfo('incSpace');
+
+end;
+
+function PLUGIN:PlayerModelChanged(player, model)
+    local clothes = player:GetClothesSlot();
+    for k, v in pairs(clothes) do
+        if player:FindItemByID(clothes[k]) then
+            player:FindItemByID(clothes[k]):OnPlayerUnequipped(player, 'takedown')
+        end;
+    end;
+end;
+
+function PLUGIN:PlayerScaleDamageByHitGroup(player, attacker, hg, damageInfo, baseDamage)
+    local slots = player:GetClothesSlot()
+    local damage = damageInfo:GetDamage();
+
+    damageInfo:ScaleDamage(1.5)
+
+    if hg == 1 && (slots['head'] != "" || slots['gasmask'] != "") then
+        local headitem = player:FindItemByID(slots['head']);
+        local used = headitem:GetData('Used');
+        local armor = headitem:GetData('Armor');
+        local quality = headitem:GetData('Quality');
+        local warm = headitem:GetData('ClothesWarm');
+        local battery = headitem:GetData('Battery');
+
+        if headitem && used then
+            headitem:SetData('Armor', m(armor - damage, 0, 100));
+            headitem:SetData('Quality', m(quality - damage, 0, 100));
+            headitem:SetData('ClothesWarm', m(warm - damage, 0, 100));
+            headitem:SetData('Battery', m(battery - damage, 0, 100));
+            damageInfo:ScaleDamage( 1 - (armor*4)/1000 - (quality*4)/1000 - (battery*4)/1000 );
+        end;
+    elseif (hg == 2 || hg == 3 || hg == 4 || hg == 5) && (slots['body'] != "" || slots['armorKevlar'] != "") then
+        local bodyClothes = player:FindItemByID(slots['body']);
+        local used = bodyClothes:GetData('Used');
+        local armor = bodyClothes:GetData('Armor');
+        local quality = bodyClothes:GetData('Quality');
+        local warm = bodyClothes:GetData('ClothesWarm');
+        local battery = bodyClothes:GetData('Battery');
+
+        if bodyClothes && used then
+
+            bodyClothes:SetData('Armor', m(armor - damage, 0, 100));
+            bodyClothes:SetData('Quality', m(quality - damage, 0, 100));
+            bodyClothes:SetData('ClothesWarm', m(warm - damage, 0, 100));
+            bodyClothes:SetData('Battery', m(battery - damage, 0, 100));
+
+            if hg == 2 || hg == 3 then
+                damageInfo:ScaleDamage( 1 - (armor*4)/1000 - (quality*4)/1000 - (battery*4)/1000 );
+            elseif hg == 4 || hg == 5 then
+                damageInfo:ScaleDamage( 1 - (armor*4)/1000 - (quality*4)/1000 - (battery*4)/1000 );
+            end;
+        end;
+    elseif (hg == 6 || hg == 7) && (slots['legs'] != "") then
+        local legsItem = player:FindItemByID(slots['legs']);
+        local used = legsItem:GetData('Used');
+        local armor = legsItem:GetData('Armor');
+        local quality = legsItem:GetData('Quality');
+        local warm = legsItem:GetData('ClothesWarm');
+        local battery = legsItem:GetData('Battery');
+
+        if legsItem && used then
+            legsItem:SetData('Armor', m(armor - damage, 0, 100));
+            legsItem:SetData('Quality', m(quality - damage, 0, 100));
+            legsItem:SetData('ClothesWarm', m(warm - damage, 0, 100));
+            legsItem:SetData('Battery', m(battery - damage, 0, 100));
+            damageInfo:ScaleDamage( 1 - (armor*4)/1000 - (quality*4)/1000 - (battery*4)/1000 );
+        end;    
+    end;
+end;
+
+function PLUGIN:PostPlayerSpawn(player, lightSpawn, changeClass, firstSpawn)
+
+    local bgs = player:GetCharacterData('bgs') local skins = player:GetCharacterData('skin');
+
+    if bgs && bgs[player:GetModel()] then
+        for a, b in pairs(bgs[player:GetModel()]) do
+            player:SetBodygroup(a, b)
+        end
+    end;
+    if skins then
+        player:SetSkin( skins )
+    end;
+
+    local citizenData = player:GetCharacterData("CitizenInfo")
+	if player:FindItemByID("citizen_civ_card") && (player:FindItemByID("citizen_civ_card"):GetData("CardInformation")["OwnerName"] == '' or player:FindItemByID("citizen_civ_card"):GetData("CardInformation")["OwnerName"] == player:Name()) then
+		player:FindItemByID("citizen_civ_card"):GetData("CardInformation")["OwnerName"] = player:Name();
+		player:FindItemByID("citizen_civ_card"):GetData("CardInformation")["OwnerCID"] = player:GetCharacterData("cid")
+		citizenData["parentedCardNumber"] = player:FindItemByID("citizen_civ_card").itemID;
+	end;
+
+end;
+
+-- Called when Clockwork has loaded all of the entities.
+function PLUGIN:ClockworkInitPostEntity()
+    self:LoadStations();
+end;
+
+-- Called just after data should be saved.
+function PLUGIN:PostSaveData()
+    self:SaveStations();
+end;
+
+function PLUGIN:SaveStations()
+    local tbl1 = {} local tbl2 = {} local tbl3 = {}
+    for k, v in pairs(ents.FindByClass("armor_batterycharger")) do
+        local mdl = v:GetModel();
+        local ang = v:GetAngles();
+        local pos = v:GetPos();
+        table.insert(tbl1, {
+            angles = ang, position = pos, model = mdl
+        });
+    end;
+    for k, v in pairs(ents.FindByClass("health_biocharger")) do
+        local mdl = v:GetModel();
+        local ang = v:GetAngles();
+        local pos = v:GetPos();
+        table.insert(tbl2, {
+            angles = ang, position = pos, model = mdl
+        });
+    end;
+    for k, v in pairs(ents.FindByClass("ross_repair_table")) do
+        local mdl = v:GetModel();
+        local ang = v:GetAngles();
+        local pos = v:GetPos();
+        table.insert(tbl3, {
+            angles = ang, position = pos, model = mdl
+        });
+    end;
+    Clockwork.kernel:SaveSchemaData("plugins/armor_stations/"..game.GetMap(), tbl1);
+    Clockwork.kernel:SaveSchemaData("plugins/health_stations/"..game.GetMap(), tbl2);
+    Clockwork.kernel:SaveSchemaData("plugins/repair_tables/"..game.GetMap(), tbl3);
+end;
+    
+function PLUGIN:LoadStations()
+    local tbl1 = Clockwork.kernel:RestoreSchemaData("plugins/armor_stations/"..game.GetMap());
+    local tbl2 = Clockwork.kernel:RestoreSchemaData("plugins/health_stations/"..game.GetMap());
+    local tbl3 = Clockwork.kernel:RestoreSchemaData("plugins/repair_tables/"..game.GetMap());
+    for k, v in pairs(tbl1) do
+        local entity = ents.Create("armor_batterycharger");      
+        entity:SetAngles(v.angles);
+        entity:SetModel(v.model);
+        entity:SetPos(v.position);
+        entity:Spawn();
+    end;
+    for k, v in pairs(tbl2) do
+        local entity = ents.Create("health_biocharger");      
+        entity:SetAngles(v.angles);
+        entity:SetModel(v.model);
+        entity:SetPos(v.position);
+        entity:Spawn();
+    end;
+    for k, v in pairs(tbl3) do
+        local entity = ents.Create("ross_repair_table");      
+        entity:SetAngles(v.angles);
+        entity:SetModel(v.model);
+        entity:SetPos(v.position);
+        entity:Spawn();
+    end;
+end;

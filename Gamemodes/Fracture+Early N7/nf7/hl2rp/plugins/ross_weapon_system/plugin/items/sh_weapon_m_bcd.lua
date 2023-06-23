@@ -1,0 +1,13 @@
+local ITEM = Clockwork.item:New("weapon_base");
+	ITEM.name = "Молоток";
+	ITEM.model = "models/weapons/tfa_nmrih/w_tool_barricade.mdl";
+	ITEM.weight = 0.7;
+	ITEM.uniqueID = "tfa_nmrih_bcd";
+	ITEM.isMeleeWeapon = true;
+	ITEM.category = "Оружие";
+	ITEM.description = "";
+	ITEM.isAttachment = true;
+	ITEM.attachmentBone = "ValveBiped.Bip01_Spine1";
+	ITEM.attachmentOffsetAngles = Angle(360, 90, -10);
+	ITEM.attachmentOffsetVector = Vector(-6, 3, 8);
+ITEM:Register();
